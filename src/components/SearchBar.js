@@ -24,12 +24,12 @@ class SearchBar extends Component {
 
     performSearch(){
         const  url = url_suggestion+this.state.inputValue;
-       // console.log(url);
+        console.log(url);
         if(this.state.inputValue !==''){
            const data = fetch(`${url}`)
            .then(res => res.json())
            .then(res=>{
-              // console.log(res.response.docs);
+                //console.log(res);
                //console.log(res.response.docs[1].name);
                //console.log(res.response.docs.length);
                //get DataSource

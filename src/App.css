@@ -27,3 +27,41 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.search-item{
+  float: left;
+  width: 30%;
+  height: 300px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  padding: 10px 0px;
+}
+
+.search-item p{
+  padding:0px 10px 0px 70px;
+  text-align: left;
+}
+
+.subtitle{
+  font-size:smaller;
+}
+
+.truncate{
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.value{
+  color:lightseagreen;
+  font-weight: bolder;
+}
+
+.search-item a{
+  text-decoration: none !important;
+  font-weight: bolder;
+  color: lightskyblue;
+  font-size: bigger;
+}
+
+
