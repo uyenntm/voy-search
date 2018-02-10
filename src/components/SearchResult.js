@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import ItemDetail from './ItemDetail';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {GridList,GridTile,GridListTileBar} from 'material-ui/GridList';
+// import getMuiTheme from 'material-ui/styles/getMuiTheme';
+// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+// import {GridList,GridTile,GridListTileBar} from 'material-ui/GridList';
 
 
-const styles = {
-    root:{
-        display: 'flex',
-        flexWrap:'wrap',
-        justifyContent: 'space-around'
-    },
-    gridList:{
-        width: 500,
-        height: 450,
-        overflowY: 'auto'
-    }
-};
+// const styles = {
+//     root:{
+//         display: 'flex',
+//         flexWrap:'wrap',
+//         justifyContent: 'space-around'
+//     },
+//     gridList:{
+//         width: 500,
+//         height: 450,
+//         overflowY: 'auto'
+//     }
+// };
 
 
 class SearchResult extends Component {

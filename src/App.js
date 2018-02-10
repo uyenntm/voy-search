@@ -20,9 +20,10 @@ class App extends Component {
     return (
      
       <div className="App">
+       <h1>USearch</h1>
        <SearchBar handleData={this.handleData}/>
        <SearchResult resultData={this.state.resultData} />
-       <div id="output"></div>
+       <footer>Copyright@uyenntm 2018</footer>
       </div>
     );
   }
