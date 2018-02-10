@@ -23,7 +23,6 @@ class App extends Component {
        <h1>USearch</h1>
        <SearchBar handleData={this.handleData}/>
        <SearchResult resultData={this.state.resultData} />
-       <footer>Copyright@uyenntm 2018</footer>
       </div>
     );
   }
